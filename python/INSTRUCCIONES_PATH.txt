@@ -1,0 +1,72 @@
+═══════════════════════════════════════════════════════
+    INSTALAR NEO EN EL PATH DE WINDOWS
+═══════════════════════════════════════════════════════
+
+¿QUÉ ES ESTO?
+
+Instalar NEO en el PATH te permite ejecutar la terminal
+desde cualquier lugar en CMD o PowerShell escribiendo
+simplemente "neo".
+
+═══════════════════════════════════════════════════════
+    INSTALACIÓN
+═══════════════════════════════════════════════════════
+
+1. Haz doble clic en:
+   instalar_en_path.bat
+
+2. Espera a que termine
+
+3. IMPORTANTE: Cierra y vuelve a abrir CMD/PowerShell
+
+4. Ahora puedes usar NEO desde cualquier lugar:
+   
+   C:\Users\TuUsuario> neo
+   
+   ¡Y se abrirá la terminal NEO!
+
+═══════════════════════════════════════════════════════
+    CÓMO USAR
+═══════════════════════════════════════════════════════
+
+Después de instalar:
+
+1. Abre CMD (Win + R, escribe "cmd")
+2. Escribe: neo
+3. Presiona Enter
+4. ¡La terminal NEO se abrirá!
+
+Funciona desde cualquier carpeta:
+
+C:\> neo
+C:\Users\> neo
+C:\Windows\> neo
+D:\Proyectos\> neo
+
+═══════════════════════════════════════════════════════
+    DESINSTALAR
+═══════════════════════════════════════════════════════
+
+Si quieres quitar NEO del PATH:
+
+1. Haz doble clic en:
+   desinstalar_del_path.bat
+
+2. Sigue las instrucciones en pantalla
+
+═══════════════════════════════════════════════════════
+    SOLUCIÓN DE PROBLEMAS
+═══════════════════════════════════════════════════════
+
+Si escribes "neo" y no funciona:
+
+1. Verifica que cerraste y volviste a abrir CMD
+2. Verifica que Python esté instalado:
+   python --version
+3. Verifica que las dependencias estén instaladas:
+   pip list | findstr psutil
+
+Si sigue sin funcionar, usa el método normal:
+   run_terminal.bat
+
+═══════════════════════════════════════════════════════

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEO - Asistente de IA con Terminal Avanzada</title>
+    <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+    <!-- Fondo animado Matrix -->
+    <canvas id="matrixBg" class="matrix-bg"></canvas>
+    
+    <!-- Header -->
+    <header class="hero">
+        <div class="container">
+            <div class="logo-section">
+                <div class="neo-logo">
+                    <pre class="ascii-logo">
+    ███╗   ██╗███████╗ ██████╗ 
+    ████╗  ██║██╔════╝██╔═══██╗
+    ██╔██╗ ██║█████╗  ██║   ██║
+    ██║╚██╗██║██╔══╝  ██║   ██║
+    ██║ ╚████║███████╗╚██████╔╝
+    ╚═╝  ╚═══╝╚══════╝ ╚═════╝
+                    </pre>
+                </div>
+                <h1>NEO Intelligence System</h1>
+                <p class="tagline">Terminal Avanzada con Acceso Real a tu Sistema</p>
+            </div>
+            
+            <div class="cta-buttons">
+                <a href="demo.html" class="btn btn-primary">
+                    <span>🌐</span> Probar Demo Web
+                </a>
+                <a href="#download" class="btn btn-secondary">
+                    <span>⬇️</span> Descargar Versión Completa
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Comparación -->
+    <section class="comparison">
+        <div class="container">
+            <h2>Elige tu Versión</h2>
+            
+            <div class="comparison-grid">
+                <!-- Versión Web -->
+                <div class="version-card web-version">
+                    <div class="card-header">
+                        <h3>🌐 Demo Web</h3>
+                        <span class="badge">Pruébalo Ahora</span>
+                    </div>
+                    <div class="card-body">
+                        <ul class="features">
+                            <li>✅ Sin instalación</li>
+                            <li>✅ Funciona en el navegador</li>
+                            <li>✅ Interfaz JARVIS completa</li>
+                            <li>✅ Reconocimiento de voz</li>
+                            <li>✅ Síntesis de voz</li>
+                            <li>✅ Clima en tiempo real</li>
+                            <li>⚠️ Terminal simulada</li>
+                            <li>⚠️ Sin acceso a archivos reales</li>
+                        </ul>
+                        <a href="demo.html" class="btn btn-outline">Probar Demo</a>
+                    </div>
+                </div>
+
+                <!-- Versión Python -->
+                <div class="version-card python-version featured">
+                    <div class="card-header">
+                        <h3>🚀 Versión Python</h3>
+                        <span class="badge featured-badge">Recomendada</span>
+                    </div>
+                    <div class="card-body">
+                        <ul class="features">
+                            <li>✅ Acceso REAL a archivos</li>
+                            <li>✅ Navega por tu PC completo</li>
+                            <li>✅ Comandos del sistema Windows</li>
+                            <li>✅ Buscar archivos reales</li>
+                            <li>✅ Crear/eliminar archivos</li>
+                            <li>✅ Síntesis de voz</li>
+                            <li>✅ Terminal flotante</li>
+                            <li>✅ Historial de comandos</li>
+                        </ul>
+                        <a href="#download" class="btn btn-primary">Descargar Gratis</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download-section">
+        <div class="container">
+            <h2>⬇️ Descargar Versión Completa</h2>
+            <p class="section-subtitle">Acceso real a los archivos de tu PC con terminal avanzada</p>
+            
+            <div class="download-grid">
+                <div class="download-card">
+                    <div class="download-icon">📦</div>
+                    <h3>Paquete Completo</h3>
+                    <p>Incluye todo lo necesario para ejecutar NEO</p>
+                    <ul class="download-includes">
+                        <li>✓ neo_assistant_v2.py</li>
+                        <li>✓ Instalador automático</li>
+                        <li>✓ Documentación completa</li>
+                        <li>✓ Instrucciones de uso</li>
+                    </ul>
+                    <button class="btn btn-primary btn-large" onclick="downloadNEO()">
+                        Descargar NEO Terminal
+                    </button>
+                    <p class="download-note">Windows | Python 3.8+</p>
+                </div>
+                
+                <div class="installation-steps">
+                    <h3>📋 Instalación Rápida</h3>
+                    <ol class="steps">
+                        <li>
+                            <strong>Descargar</strong>
+                            <p>Descarga el paquete completo</p>
+                        </li>
+                        <li>
+                            <strong>Instalar</strong>
+                            <p>Ejecuta <code>install_simple.bat</code></p>
+                        </li>
+                        <li>
+                            <strong>Ejecutar</strong>
+                            <p>Doble clic en <code>run_terminal.bat</code></p>
+                        </li>
+                        <li>
+                            <strong>¡Listo!</strong>
+                            <p>Abre la terminal y empieza a explorar</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="requirements">
+                <h3>Requisitos del Sistema</h3>
+                <div class="req-grid">
+                    <div class="req-item">
+                        <strong>Sistema Operativo:</strong>
+                        <p>Windows 10/11</p>
+                    </div>
+                    <div class="req-item">
+                        <strong>Python:</strong>
+                        <p>3.8 o superior</p>
+                    </div>
+                    <div class="req-item">
+                        <strong>Espacio:</strong>
+                        <p>~50 MB</p>
+                    </div>
+                    <div class="req-item">
+                        <strong>RAM:</strong>
+                        <p>Mínimo 2 GB</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features-section">
+        <div class="container">
+            <h2>✨ Características de la Versión Python</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📁</div>
+                    <h3>Acceso Real a Archivos</h3>
+                    <p>Navega, busca y gestiona archivos reales de tu PC con comandos de terminal</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🖥️</div>
+                    <h3>Comandos del Sistema</h3>
+                    <p>Ejecuta cualquier comando de Windows: ipconfig, tasklist, systeminfo, etc.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Búsqueda Avanzada</h3>
+                    <p>Encuentra archivos en todo tu sistema con el comando find</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Interfaz Matrix</h3>
+                    <p>Terminal flotante con colores verde fosforescente estilo hacker</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔊</div>
+                    <h3>Síntesis de Voz</h3>
+                    <p>NEO puede hablar y leer texto en voz alta</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">⌨️</div>
+                    <h3>Historial de Comandos</h3>
+                    <p>Navega por comandos anteriores con las flechas ↑ ↓</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>NEO Intelligence System v2.0 | Creado con 💚 para exploradores del sistema</p>
+            <p class="footer-links">
+                <a href="demo.html">Demo Web</a> | 
+                <a href="#download">Descargar</a> | 
+                <a href="https://github.com/tuusuario/neo" target="_blank">GitHub</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="landing.js"></script>
+</body>
+</html>

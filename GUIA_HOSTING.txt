@@ -1,0 +1,126 @@
+═══════════════════════════════════════════════════════════════
+    GUÍA PARA SUBIR NEO AL HOSTING
+═══════════════════════════════════════════════════════════════
+
+📁 ESTRUCTURA DEL PROYECTO:
+
+NEO/
+├── web/              ← SUBE ESTA CARPETA AL HOSTING
+│   ├── index.html    (Landing page principal)
+│   ├── demo.html     (Demo funcional)
+│   ├── landing.css
+│   ├── landing.js
+│   ├── script.js
+│   ├── style.css
+│   └── bg.png
+│
+├── python/           ← Para descargas (NO subir al hosting)
+│   ├── neo_assistant_v2.py
+│   ├── install_simple.bat
+│   ├── run_terminal.bat
+│   └── requirements.txt
+│
+└── docs/             ← Documentación (opcional subir)
+    ├── README_COMPLETO.md
+    ├── README_TERMINAL.md
+    └── INSTRUCCIONES_USO.txt
+
+═══════════════════════════════════════════════════════════════
+🌐 PASOS PARA SUBIR AL HOSTING:
+═══════════════════════════════════════════════════════════════
+
+OPCIÓN 1: Subir solo la carpeta web/
+────────────────────────────────────
+1. Abre tu panel de hosting (cPanel, FileZilla, etc.)
+2. Ve a la carpeta public_html/ o www/
+3. Sube TODO el contenido de la carpeta web/
+4. Asegúrate de que index.html esté en la raíz
+5. ¡Listo! Tu sitio estará en tudominio.com
+
+OPCIÓN 2: Subir todo el proyecto
+────────────────────────────────────
+1. Sube todas las carpetas (web, python, docs)
+2. Configura index.html de web/ como página principal
+3. Los usuarios podrán descargar la carpeta python/
+
+═══════════════════════════════════════════════════════════════
+📋 CHECKLIST ANTES DE SUBIR:
+═══════════════════════════════════════════════════════════════
+
+✅ Verificar que web/index.html existe
+✅ Verificar que web/demo.html existe
+✅ Verificar que todos los archivos CSS/JS están en web/
+✅ Verificar que bg.png está en web/
+✅ Probar localmente abriendo web/index.html
+✅ Verificar que los enlaces funcionan
+
+═══════════════════════════════════════════════════════════════
+🎯 QUÉ VERÁN LOS USUARIOS:
+═══════════════════════════════════════════════════════════════
+
+1. LANDING PAGE (index.html):
+   - Información sobre NEO
+   - Comparación Web vs Python
+   - Botón "Probar Demo Web"
+   - Botón "Descargar Versión Completa"
+
+2. DEMO WEB (demo.html):
+   - Interfaz JARVIS completa
+   - Reconocimiento de voz
+   - Terminal simulada
+   - Sin acceso a archivos reales
+
+3. DESCARGA PYTHON:
+   - Instrucciones de instalación
+   - Acceso a carpeta python/
+   - Terminal con acceso real a archivos
+
+═══════════════════════════════════════════════════════════════
+🔧 CONFIGURACIÓN ADICIONAL:
+═══════════════════════════════════════════════════════════════
+
+Si quieres que los usuarios descarguen la versión Python:
+
+OPCIÓN A: Crear un ZIP
+   1. Comprime la carpeta python/ en NEO-Terminal.zip
+   2. Súbelo al hosting
+   3. Actualiza el botón de descarga en index.html:
+      <a href="NEO-Terminal.zip" download>Descargar</a>
+
+OPCIÓN B: Enlace a GitHub
+   1. Sube el proyecto a GitHub
+   2. Actualiza el enlace en index.html:
+      <a href="https://github.com/tuusuario/neo/releases">Descargar</a>
+
+OPCIÓN C: Carpeta pública
+   1. Sube la carpeta python/ al hosting
+   2. Enlaza a: tudominio.com/python/
+
+═══════════════════════════════════════════════════════════════
+⚠️ IMPORTANTE:
+═══════════════════════════════════════════════════════════════
+
+- La versión web (demo) NO puede acceder a archivos reales
+  por seguridad del navegador
+
+- La versión Python SÍ accede a archivos reales pero debe
+  descargarse y ejecutarse localmente
+
+- El demo web es solo para mostrar la interfaz
+
+- Para funcionalidad completa, los usuarios deben descargar
+  la versión Python
+
+═══════════════════════════════════════════════════════════════
+📞 SOPORTE:
+═══════════════════════════════════════════════════════════════
+
+Si tienes problemas:
+1. Verifica que todos los archivos estén en web/
+2. Abre web/index.html localmente para probar
+3. Revisa la consola del navegador (F12) para errores
+4. Verifica que las rutas de los archivos sean correctas
+
+═══════════════════════════════════════════════════════════════
+¡Listo para subir NEO al mundo! 🚀
+═══════════════════════════════════════════════════════════════

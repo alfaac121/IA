@@ -1,0 +1,83 @@
+═══════════════════════════════════════════════════════
+    CAMBIOS RECIENTES - NEO TERMINAL v2.0
+═══════════════════════════════════════════════════════
+
+✅ PROBLEMAS SOLUCIONADOS:
+
+1. SCROLLBAR RESTAURADO
+   - El scrollbar ahora es visible y funcional
+   - Estilo verde (#00ff00) que combina con el tema Matrix
+   - Se vuelve azul (#00d4ff) al pasar el mouse
+
+2. MEJOR MANEJO DE ERRORES
+   - Los comandos que fallan ya no cierran la terminal
+   - Mensajes de error más claros y útiles
+   - Sugerencias cuando un comando no funciona
+
+3. NUEVO COMANDO: estado
+   - Muestra información completa del PC
+   - CPU: uso en tiempo real con barra de progreso
+   - RAM: total, usada y disponible con barra
+   - DISCO: espacio total, usado y libre con barra
+   - Procesos activos
+   - NO depende de wmic (funciona en todas las versiones de Windows)
+
+4. NUEVO COMANDO: monitor
+   - Monitor en TIEMPO REAL que se actualiza cada 2 segundos
+   - Muestra CPU, RAM, Disco y Red actualizándose automáticamente
+   - Puedes ver cómo cambian los valores en vivo
+   - Usa 'stop' para detener el monitor
+
+═══════════════════════════════════════════════════════
+    CÓMO USAR LOS NUEVOS COMANDOS
+═══════════════════════════════════════════════════════
+
+1. COMANDO "estado" (una sola vez):
+   Escribe:
+       estado
+   
+   Muestra el estado actual del PC una sola vez.
+
+2. COMANDO "monitor" (actualización en vivo):
+   Escribe:
+       monitor
+   
+   Se actualiza automáticamente cada 2 segundos.
+   Puedes ver cómo cambian los valores en tiempo real.
+   
+   Para detenerlo, escribe:
+       stop
+
+Ambos comandos muestran barras de progreso en colores:
+  - Verde: uso normal (< 50%)
+  - Naranja: uso medio (50-80%)
+  - Rojo: uso alto (> 80%)
+
+═══════════════════════════════════════════════════════
+    INSTALACIÓN DE LA NUEVA LIBRERÍA
+═══════════════════════════════════════════════════════
+
+Para que el comando "estado" funcione, necesitas instalar
+una librería adicional. Ejecuta:
+
+    install_simple.bat
+
+O manualmente:
+
+    pip install psutil
+
+═══════════════════════════════════════════════════════
+    COMANDOS RECOMENDADOS
+═══════════════════════════════════════════════════════
+
+En lugar de usar comandos de Windows que pueden fallar:
+  ❌ wmic cpu get name
+  ❌ wmic memorychip get capacity
+  ❌ systeminfo
+
+Usa el nuevo comando:
+  ✅ estado
+
+Es más rápido, más claro y siempre funciona.
+
+═══════════════════════════════════════════════════════

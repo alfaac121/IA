@@ -1,0 +1,71 @@
+═══════════════════════════════════════════════════════
+    NEO TERMINAL v2.0 - VERSIÓN FINAL HACKER
+═══════════════════════════════════════════════════════
+
+CAMBIOS APLICADOS:
+
+1. ESTILO PROFESIONAL HACKER
+   [+] Sin bordes verdes - ventana completamente negra
+   [+] Sin emojis - solo indicadores de texto [OK], [ERROR], [WARN], etc.
+   [+] Scrollbar invisible
+   [+] Aspecto minimalista y profesional
+
+2. EFECTOS DE SONIDO
+   [+] Beep al ejecutar comandos
+   [+] Sonido de éxito (ascendente) al completar acciones
+   [+] Sonido de error (grave) cuando algo falla
+   [+] Sonido especial al iniciar el monitor
+
+3. MONITOR EN TIEMPO REAL
+   [+] Comando: monitor
+   [+] Se actualiza cada 2 segundos EN EL MISMO LUGAR
+   [+] No acumula información, solo refresca
+   [+] Muestra: CPU, RAM, Disco, Red, Procesos
+   [+] Barras de progreso con colores:
+       - Verde: < 50% (normal)
+       - Naranja: 50-80% (medio)
+       - Rojo: > 80% (alto)
+   [+] Para detener: stop
+
+4. COMANDOS PRINCIPALES
+   ayuda       - Lista de comandos
+   limpiar     - Limpia terminal (mantiene delfín)
+   monitor     - Monitor en tiempo real
+   stop        - Detiene el monitor
+   ls/dir      - Lista archivos
+   cd [ruta]   - Cambia directorio
+   pwd         - Directorio actual
+   whoami      - Usuario actual
+   hora        - Hora actual
+   fecha       - Fecha actual
+
+═══════════════════════════════════════════════════════
+    CÓMO USAR
+═══════════════════════════════════════════════════════
+
+1. Instala las dependencias:
+   instalar_psutil.bat
+
+2. Ejecuta la terminal:
+   run_terminal.bat
+
+3. Prueba el monitor:
+   monitor
+
+4. Detén el monitor:
+   stop
+
+═══════════════════════════════════════════════════════
+    CARACTERÍSTICAS TÉCNICAS
+═══════════════════════════════════════════════════════
+
+- Sin bordes ni esquinas redondeadas
+- Ventana flotante arrastrable
+- Historial de comandos (flechas arriba/abajo)
+- Ejecución de comandos de Windows
+- Acceso real al sistema de archivos
+- Efectos de sonido con winsound
+- Monitor en tiempo real con psutil
+- Actualización cada 2 segundos sin acumulación
+
+═══════════════════════════════════════════════════════

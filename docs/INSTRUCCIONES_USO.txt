@@ -1,0 +1,120 @@
+═══════════════════════════════════════════════════════════════
+    NEO TERMINAL - VERSIÓN PYTHON CON ACCESO REAL A TU PC
+═══════════════════════════════════════════════════════════════
+
+🎯 ¿QUÉ ES ESTO?
+
+Una terminal avanzada en Python que SÍ puede acceder a los archivos
+REALES de tu PC (no simulados como la versión web).
+
+
+📦 INSTALACIÓN RÁPIDA:
+
+1. Doble clic en: install_simple.bat
+2. Espera a que se instalen las librerías
+3. Listo!
+
+
+▶️ EJECUTAR:
+
+Doble clic en: run_terminal.bat
+
+O escribe en CMD:
+python neo_assistant_v2.py
+
+
+🎮 CÓMO USAR:
+
+1. Se abre la ventana principal de NEO
+2. Haz clic en "💻 ABRIR TERMINAL"
+3. Aparece una terminal flotante verde (estilo Matrix)
+4. Escribe comandos y presiona Enter
+
+
+📚 COMANDOS PRINCIPALES:
+
+NAVEGAR POR ARCHIVOS:
+  dir              → Ver archivos de la carpeta actual
+  cd Documentos    → Ir a la carpeta Documentos
+  cd ..            → Volver atrás
+  pwd              → Ver dónde estás
+
+BUSCAR ARCHIVOS:
+  find .txt        → Busca todos los archivos .txt
+  find proyecto    → Busca archivos con "proyecto" en el nombre
+
+VER ARCHIVOS:
+  cat archivo.txt  → Muestra el contenido del archivo
+  tree             → Muestra árbol de carpetas
+
+CREAR/ELIMINAR:
+  mkdir carpeta    → Crea una carpeta
+  touch test.txt   → Crea un archivo vacío
+  rm archivo.txt   → Elimina un archivo
+
+SISTEMA:
+  neofetch         → Info del sistema con logo NEO
+  systeminfo       → Info completa de Windows
+  tasklist         → Ver procesos activos
+  ipconfig         → Ver configuración de red
+
+NEO:
+  decir hola       → NEO dice "hola" en voz alta
+  buscar python    → Busca en Google
+  ayuda            → Ver todos los comandos
+
+
+💡 EJEMPLOS PRÁCTICOS:
+
+# Ver tus documentos
+cd C:\Users\TuNombre\Documents
+dir
+
+# Buscar todas tus fotos
+cd C:\Users\TuNombre
+find .jpg
+
+# Ver contenido de un archivo
+cat README.md
+
+# Crear una carpeta para proyectos
+mkdir mis_proyectos
+cd mis_proyectos
+
+# Ver árbol de carpetas
+tree
+
+
+🎨 CARACTERÍSTICAS:
+
+✅ Acceso REAL a todos tus archivos
+✅ Terminal flotante que puedes mover
+✅ Historial de comandos (usa ↑ y ↓)
+✅ Colores verde Matrix
+✅ NEO puede hablar (síntesis de voz)
+✅ Ejecuta comandos de Windows
+✅ Busca archivos en todo el PC
+
+
+⚠️ IMPORTANTE:
+
+- Ten cuidado con "rm" - elimina archivos de verdad
+- Algunos comandos necesitan permisos de administrador
+- Puedes navegar por TODO tu PC
+
+
+🆘 PROBLEMAS?
+
+Error "Python no encontrado":
+  → Instala Python desde python.org
+
+Error "No module named PyQt6":
+  → Ejecuta: pip install PyQt6
+
+La voz no funciona:
+  → Ejecuta: pip install pyttsx3
+
+
+═══════════════════════════════════════════════════════════════
+¡Disfruta explorando tu PC con NEO Terminal! 🚀
+═══════════════════════════════════════════════════════════════

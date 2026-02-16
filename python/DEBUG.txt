@@ -1,0 +1,97 @@
+═══════════════════════════════════════════════════════════════
+    SOLUCIÓN DE PROBLEMAS - NEO TERMINAL PYTHON
+═══════════════════════════════════════════════════════════════
+
+🐛 PROBLEMA: La terminal se cierra al ejecutar comandos
+
+POSIBLES CAUSAS:
+1. Error en el comando
+2. Falta alguna librería
+3. Permisos insuficientes
+4. Comando "exit" accidental
+
+═══════════════════════════════════════════════════════════════
+✅ SOLUCIONES:
+═══════════════════════════════════════════════════════════════
+
+SOLUCIÓN 1: Ejecutar desde CMD para ver errores
+────────────────────────────────────────────────
+1. Abre CMD (Símbolo del sistema)
+2. Navega a la carpeta python:
+   cd ruta\a\tu\carpeta\python
+3. Ejecuta:
+   python neo_assistant_v2.py
+4. Ahora verás los errores en la consola
+
+SOLUCIÓN 2: Verificar instalación
+────────────────────────────────────────────────
+Ejecuta en CMD:
+   pip list
+
+Debes ver:
+   PyQt6
+   pyttsx3
+   requests
+
+Si falta alguna:
+   pip install PyQt6 pyttsx3 requests
+
+SOLUCIÓN 3: Comandos seguros para probar
+────────────────────────────────────────────────
+Prueba estos comandos uno por uno:
+
+✅ Comandos que NO deberían fallar:
+   ayuda
+   whoami
+   pwd
+   hora
+   fecha
+   neofetch
+
+⚠️ Comandos que pueden fallar:
+   ls          (si no tienes permisos en la carpeta)
+   cd C:\      (si no existe la ruta)
+   cat X.txt   (si no existe el archivo)
+
+SOLUCIÓN 4: Cambios recientes
+────────────────────────────────────────────────
+Ahora el comando "exit" NO cierra la terminal inmediatamente.
+Debes escribir: exit confirm
+
+Para cerrar la terminal, usa el botón X
+
+═══════════════════════════════════════════════════════════════
+📝 COMANDOS DISPONIBLES:
+═══════════════════════════════════════════════════════════════
+
+BÁSICOS:
+  ayuda          - Muestra ayuda
+  clear          - Limpia pantalla
+  whoami         - Usuario actual
+  pwd            - Directorio actual
+  hora           - Hora actual
+  fecha          - Fecha actual
+
+ARCHIVOS:
+  ls / dir       - Lista archivos
+  cd [carpeta]   - Cambia directorio
+  cat [archivo]  - Muestra contenido
+  find [nombre]  - Busca archivos
+  tree           - Árbol de directorios
+
+SISTEMA:
+  neofetch       - Info del sistema
+  tasklist       - Procesos (Windows)
+  ipconfig       - Info de red
+  systeminfo     - Info completa
+
+═══════════════════════════════════════════════════════════════
+🔍 CÓMO REPORTAR UN ERROR:
+═══════════════════════════════════════════════════════════════
+
+1. Ejecuta desde CMD: python neo_assistant_v2.py
+2. Reproduce el error
+3. Copia el mensaje de error que aparece en CMD
+4. Anota qué comando ejecutaste
+
+═══════════════════════════════════════════════════════════════
