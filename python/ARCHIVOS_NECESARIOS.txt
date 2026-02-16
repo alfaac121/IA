@@ -1,0 +1,133 @@
+═══════════════════════════════════════════════════════
+    ARCHIVOS NECESARIOS PARA NEO TERMINAL v2.0
+═══════════════════════════════════════════════════════
+
+📦 ARCHIVOS PRINCIPALES (OBLIGATORIOS):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ neo_assistant_v2.py
+   → Programa principal de la terminal
+   → Tamaño: ~30 KB
+   → OBLIGATORIO
+
+✅ requirements.txt
+   → Lista de dependencias de Python
+   → Contiene: PyQt6, pyttsx3, psutil, requests
+   → OBLIGATORIO
+
+✅ install_simple.bat
+   → Instalador automático de dependencias
+   → Ejecuta: pip install -r requirements.txt
+   → OBLIGATORIO
+
+✅ run_terminal.bat
+   → Launcher principal de la terminal
+   → Ejecuta: pythonw neo_assistant_v2.py
+   → OBLIGATORIO
+
+
+📦 ARCHIVOS OPCIONALES (RECOMENDADOS):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⭐ neo.bat
+   → Comando global para ejecutar desde cualquier lugar
+   → Uso: Escribe "neo" en CMD
+   → OPCIONAL
+
+⭐ neo.vbs
+   → Launcher silencioso (sin ventana CMD)
+   → Ejecuta NEO sin mostrar consola
+   → OPCIONAL
+
+⭐ instalar_en_path.bat
+   → Agrega NEO al PATH del sistema
+   → Permite usar comando "neo" globalmente
+   → OPCIONAL
+
+⭐ desinstalar_del_path.bat
+   → Quita NEO del PATH del sistema
+   → OPCIONAL
+
+
+📦 ARCHIVOS DE DOCUMENTACIÓN:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📄 README_INSTALACION.md
+   → Guía completa de instalación
+   → Comandos disponibles
+   → Solución de problemas
+
+📄 INSTRUCCIONES_PATH.txt
+   → Cómo agregar NEO al PATH
+   → Instrucciones detalladas
+
+📄 CAMBIOS_RECIENTES.txt
+   → Últimas actualizaciones
+   → Nuevas características
+
+📄 DEBUG.txt
+   → Información de depuración
+   → Ayuda para resolver errores
+
+
+═══════════════════════════════════════════════════════
+    RESUMEN DE INSTALACIÓN
+═══════════════════════════════════════════════════════
+
+MÍNIMO NECESARIO (4 archivos):
+  1. neo_assistant_v2.py
+  2. requirements.txt
+  3. install_simple.bat
+  4. run_terminal.bat
+
+INSTALACIÓN COMPLETA (todos los archivos):
+  → Incluye comandos globales
+  → Documentación completa
+  → Herramientas adicionales
+
+
+═══════════════════════════════════════════════════════
+    DEPENDENCIAS DE PYTHON
+═══════════════════════════════════════════════════════
+
+Se instalan automáticamente con install_simple.bat:
+
+📦 PyQt6 >= 6.4.0
+   → Interfaz gráfica de la terminal
+   → Ventanas, botones, animaciones
+
+📦 pyttsx3 >= 2.90
+   → Síntesis de voz (text-to-speech)
+   → NEO puede hablar
+
+📦 psutil >= 5.9.0
+   → Información del sistema
+   → CPU, RAM, Disco, Procesos
+
+📦 requests >= 2.28.0
+   → Peticiones HTTP
+   → Clima, APIs externas
+
+
+═══════════════════════════════════════════════════════
+    TAMAÑO TOTAL DEL PAQUETE
+═══════════════════════════════════════════════════════
+
+Archivos del proyecto:     ~50 KB
+Dependencias (instaladas): ~80 MB
+Total después de instalar: ~80 MB
+
+
+═══════════════════════════════════════════════════════
+    ¿QUÉ HACER DESPUÉS DE DESCARGAR?
+═══════════════════════════════════════════════════════
+
+1. Extrae el archivo ZIP
+2. Abre la carpeta "python"
+3. Doble clic en "install_simple.bat"
+4. Espera a que se instalen las dependencias
+5. Doble clic en "run_terminal.bat"
+6. ¡Disfruta NEO Terminal! 🚀
+
+
+═══════════════════════════════════════════════════════
