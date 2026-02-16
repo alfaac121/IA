@@ -1,0 +1,6 @@
+python/
+docs/
+.vscode/
+*.txt
+*.md
+!README.md
