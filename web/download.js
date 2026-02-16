@@ -1,7 +1,7 @@
 // Script para descargar el paquete NEO Terminal
 function downloadNEO() {
-    // Crear un enlace temporal para descargar desde GitHub
-    const downloadUrl = 'https://github.com/alfaac121/IA/archive/refs/heads/main.zip';
+    // URL directa al archivo ZIP en el repositorio
+    const downloadUrl = 'https://github.com/alfaac121/IA/raw/main/NEO-Terminal-v2.0.zip';
     
     // Crear elemento de enlace temporal
     const link = document.createElement('a');
@@ -29,8 +29,8 @@ function showDownloadMessage() {
             <div class="download-steps">
                 <h4>Próximos pasos:</h4>
                 <ol>
-                    <li>Extrae el archivo ZIP descargado</li>
-                    <li>Abre la carpeta <code>IA-main/python</code></li>
+                    <li>Extrae el archivo <code>NEO-Terminal-v2.0.zip</code></li>
+                    <li>Abre la carpeta extraída</li>
                     <li>Ejecuta <code>install_simple.bat</code></li>
                     <li>Luego ejecuta <code>run_terminal.bat</code></li>
                 </ol>
